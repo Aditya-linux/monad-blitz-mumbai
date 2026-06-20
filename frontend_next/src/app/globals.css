@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --ink: #15161B;
+  --ink-soft: #5A5A63;
+  --paper: #F6F3EC;
+  --paper-card: #FFFFFF;
+  --line: #DAD5C6;
+  --saffron: #E8862C;
+  --saffron-deep: #8C480D;
+  --saffron-soft: #FBE7D2;
+  --indigo: #3F3AA6;
+  --indigo-deep: #1F1C57;
+  --indigo-soft: #EAE8F8;
+  --indigo-light: #B7AEEA;
+  --mint: #1F9D72;
+  --mint-soft: #E3F3EC;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-paper: var(--paper);
+  --color-paper-card: var(--paper-card);
+  --color-line: var(--line);
+  --color-saffron: var(--saffron);
+  --color-saffron-deep: var(--saffron-deep);
+  --color-saffron-soft: var(--saffron-soft);
+  --color-indigo: var(--indigo);
+  --color-indigo-deep: var(--indigo-deep);
+  --color-indigo-soft: var(--indigo-soft);
+  --color-indigo-light: var(--indigo-light);
+  --color-mint: var(--mint);
+  --color-mint-soft: var(--mint-soft);
+
+  --font-sans: var(--font-ibm-plex-sans), sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), monospace;
+  --font-display: var(--font-space-grotesk), sans-serif;
+}

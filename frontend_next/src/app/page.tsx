@@ -1,0 +1,24 @@
+import FaqSection from "@/components/home/FaqSection";
+import Features from "@/components/home/Features";
+import Footer from "@/components/home/Footer";
+import Hero from "@/components/home/Hero";
+import HeroFloatingCards from "@/components/home/HeroFloatingCards";
+import HowItWorks from "@/components/home/HowItWorks";
+import PageShell from "@/components/home/PageShell";
+
+export default function Home() {
+  return (
+    <PageShell>
+      <main className="space-y-16 sm:space-y-20">
+        <div className="relative">
+          <HeroFloatingCards />
+          <Hero />
+        </div>
+        <Features />
+        <HowItWorks />
+        <FaqSection />
+        <Footer />
+      </main>
+    </PageShell>
+  );
+}
