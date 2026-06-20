@@ -344,6 +344,7 @@ export const useAppStore = create<AppState>((set, get) => ({
       description: `Ongoing subscription at ${monthlyUsdc} USDC/mo. Please begin the initial setup and acknowledge the subscription.`,
       budgetInr: monthlyInr,
       budgetUsdc: monthlyUsdc,
+      deadline: 'Ongoing'
     });
     
     // Automatically transition to escrowed so the agent can start working

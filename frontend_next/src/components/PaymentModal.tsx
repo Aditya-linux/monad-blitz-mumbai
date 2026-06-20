@@ -47,6 +47,7 @@ export default function PaymentModal({ agentId, priceInr, priceUsdc, onClose }: 
             description: 'Task funded via Razorpay and escrowed on Monad.',
             budgetInr: priceInr,
             budgetUsdc: priceUsdc,
+            deadline: '24 Hours',
           });
           
           updateTaskStatus(newTaskId, 'escrowed', mockTxHash, response.razorpay_payment_id);
